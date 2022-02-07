@@ -155,9 +155,6 @@ button:hover{
     justify-content: space-between;
     background-color: var(--main-color);
     padding-bottom: 2rem;
-    /* 
-    margin: 0 2rem 3rem 2rem; */
-    /* box-shadow:  0 4px 10px rgba(0,0,0,0.2); */
    
 }
 .bottom-left{
@@ -171,11 +168,11 @@ button:hover{
     width: 70%;
 }
 .bottom-left div p{
-    font-size: 10px;
+    font-size: 12px;
 }
 .bottom-left div ol li{
     list-style-type: decimal;
-    font-size: 10px;
+    font-size: 12px;
 }
 .bottom-left div ol{
     padding: 10px 0 0 20px ;
@@ -192,20 +189,21 @@ button:hover{
     justify-content: space-evenly;
 }
 .bright-info{
-    display: flex;
-    justify-content: flex-start;
+    display:flex;
     align-items: center;
+   
 }
 .bright-info p, li{
     font-size: 12px;
-    padding-left: 10px;
-    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-bottom: 1px;
+    
 }
 .org-div{
     align-items: flex-start;
 }
 .organiser ul li{
-    font-size: 10px;
+    font-size: 12px;
     
 }
 @media (max-width: 700px){
